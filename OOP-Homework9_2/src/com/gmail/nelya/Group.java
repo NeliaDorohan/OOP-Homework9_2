@@ -63,7 +63,7 @@ public class Group implements Comisariat, Serializable {
 
 	public Student findStudent(String lastName) {
 		for (int i = 0; i < students.size(); i++) {
-			if (students.get(i) != null && students.get(i).getLastName().equals(lastName)) {
+			if (students.get(i) != null && students.get(i).getLastName().equalsIgnoreCase(lastName)) {
 				return students.get(i);
 			}
 		}
