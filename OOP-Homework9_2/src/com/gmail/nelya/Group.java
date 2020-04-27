@@ -8,7 +8,7 @@ public class Group implements Comisariat, Serializable {
 	 * 
 	 */
 	private static final long serialVersionUID = 1L;
-//	private Student[] students = new Student[10];
+
 	private ArrayList<Student> students = new ArrayList<Student>(10);
 	private String groupName;
 
